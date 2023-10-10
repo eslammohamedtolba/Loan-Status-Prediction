@@ -12,7 +12,7 @@ import numpy as np
 
 
 # loading dataset 
-Loan_status_data = pd.read_csv("/content/train.csv")
+Loan_status_data = pd.read_csv("train.csv")
 # show dataset
 Loan_status_data.head()
 # show the number of rows and columns
